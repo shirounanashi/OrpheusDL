@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "orpheusdl"
+version = "1.0"
+description = "orpheusdl fork"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+defusedxml = ">=0.7.1"
+pycryptodomex = ">=3.10.1"
+requests = ">=2.25.1"
+tqdm = ">=4.60.0"
+mutagen = ">=1.45.1"
+ffmpeg-python = ">=0.2.0"
+m3u8 = ">=2.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
