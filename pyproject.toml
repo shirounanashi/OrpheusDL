@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "orpheusdl"
+name = "orpheudl"
 version = "1.0"
 description = "orpheusdl fork"
 authors = ["Your Name <you@example.com>"]
@@ -14,7 +14,6 @@ tqdm = ">=4.60.0"
 mutagen = ">=1.45.1"
 ffmpeg-python = ">=0.2.0"
 m3u8 = ">=2.0.0"
-
 
 [build-system]
 requires = ["poetry-core"]
